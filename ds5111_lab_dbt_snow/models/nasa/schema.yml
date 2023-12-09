@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: active_faciites
+    description: "nasa active site names only"
+    columns:
+      - name: status
+        description: "status, active or null, but should be Active only for this table"
+        tests:
+          - unique
+          - not_null
