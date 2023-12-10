@@ -1,0 +1,6 @@
+
+version: 1
+
+models:
+  - name: erd
+    description: "erd for MSDS course assignments"
